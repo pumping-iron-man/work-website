@@ -107,11 +107,11 @@ a:focus {
 /*#partner,*/
 #contact {
   text-align: center;
-  background: rgb(240,240,240);
 }
 
 /*#partner,*/
-#about {
+#about,
+#contact {
   background: rgb(240,240,240);
 }
 
