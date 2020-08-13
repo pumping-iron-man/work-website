@@ -96,7 +96,7 @@ a:focus {
 }
 
 #about,
-#partner,
+/*#partner,*/
 #verteilgebiet,
 #contact{
   color: #656565;
@@ -104,12 +104,13 @@ a:focus {
   padding-bottom: 100px;
 }
 
-#partner,
+/*#partner,*/
 #contact {
   text-align: center;
 }
 
-#about, #partner {
+/*#partner,*/
+#about {
   background: rgb(240,240,240);
 }
 
@@ -313,7 +314,7 @@ a:focus {
 }
 
 /* partner section */
-.partnerContainer {
+/* .partnerContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -328,6 +329,7 @@ a:focus {
 .partnerContainer img {
   width: inherit;
 }
+*/
 
 /* contact section */
 #contact {
@@ -424,10 +426,10 @@ footer strong {
     padding: 10px 15px;
   }
 
-  #partner .row {
+  /*#partner .row {
     display: flex;
     flex-direction: column;
-  }
+  }*/
 }
 
 @media (max-width: 991px) {
